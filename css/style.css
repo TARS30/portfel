@@ -138,6 +138,24 @@ h6 {
 }
 
 body {
+  padding: 0;
+  margin: 0;
+  overflow: scroll;
+}
+
+body .preview .resume {
+  max-height: 100%;
+}
+
+body .preview .resume > * {
+  max-height: 100%;
+}
+
+body .input-content {
+  min-height: 900px;
+}
+
+body {
   font-family: Roboto;
 }
 
